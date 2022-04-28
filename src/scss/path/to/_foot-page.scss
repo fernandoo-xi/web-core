@@ -1,0 +1,79 @@
+.footer-page {
+  display: flex;
+  font-family: 'TT Lakes R', serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 16px;
+  color: #7E7E82;
+  mix-blend-mode: normal;
+  opacity: 0.72;
+  border-top:  1px solid #D9FFF5;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer-page {
+    flex-direction: column;
+  }
+  .footer-page div {
+    margin-top: 16px;
+    margin-right: 4px;
+    margin-left: 4px;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (min-width: 767.98px) and (max-width: 1439.98px) {
+  .footer-page div {
+    margin-top: 32px;
+    margin-right: 16px;
+    margin-left: 22px;
+  }
+
+  .footer-page div:nth-child(1) {
+    flex-basis: 39%;
+
+  }
+
+  .footer-page div:nth-child(2) {
+    flex-basis: 38%;
+    margin-left: 0;
+    text-align: center
+  }
+
+  .footer-page div:nth-child(3) {
+    flex-basis: 33%;
+    text-align: right;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1439.98px) {
+  .footer-page div {
+    margin-top: 32px;
+    margin-right: 16px;
+    margin-left: 22px;
+  }
+
+  .footer-page div:nth-child(1) {
+    flex-basis: 39%;
+
+  }
+
+  .footer-page div:nth-child(2) {
+    flex-basis: 38%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-page div:nth-child(3) {
+    flex-basis: 33%;
+    text-align: right;
+    margin-left: 0;
+  }
+}
+
+
+

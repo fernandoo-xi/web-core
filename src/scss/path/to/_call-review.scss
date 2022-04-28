@@ -1,0 +1,107 @@
+.call-review .menu__burger-close {
+  position: absolute;
+  top:  32px;
+  left: -64px;
+
+}
+
+.call-review__call-header {
+  border-left: 3px solid #41F6D7;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  padding-bottom:  8px;
+  padding-left: 30px;
+  font-family: 'TT Lakes B1', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: #1B1C21;
+}
+.call-review__input-text {
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  width: 85%;
+  height: 48px;
+  margin: 0 32px 16px 32px;
+  font-family: 'TT Lakes M1', serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E7E82;
+}
+
+.call-review {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  width: 440px;
+  background-color: white;
+  border-left: 1px solid #D9FFF5;
+  border-radius: 1px;
+  height: 100%;
+  box-shadow: 0 0 15px 1px #B5B6BC;
+
+}
+
+
+.call-white-background {
+  position: fixed;
+  left: 0;
+  top:0;
+  background-color: white;
+  z-index: 10;
+  width: 145vh;
+  height: 100vh;
+  opacity: 0.95;
+}
+
+
+.call-review .list_second-button {
+  position: absolute;
+  top:  224px;
+  left:  271px;
+}
+
+.call-review .items__third-item--right {
+  left: 5px;
+  top: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+  .call-review {
+    position: relative;
+    width: 320px;
+    height: 100vh;
+  }
+
+  .call-review .menu__burger-close {
+    position: relative;
+    top:  24px;
+    left:  16px;
+
+  }
+
+  .call-review__call-header {
+    margin-top: 56px;
+  }
+
+  .call-review__input-text {
+    margin: 0 16px 16px 16px;
+  }
+
+
+  .call-review .list_second-button {
+    position: absolute;
+    top:  306px;
+    left: 168px;
+  }
+
+}
+
+
+.call-review_hidden {
+  display: none;
+}

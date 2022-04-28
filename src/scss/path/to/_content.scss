@@ -1,0 +1,125 @@
+@media screen and (max-width: 767.98px) {
+  .content__image2, .content__image3 {
+    display: none;
+  }
+  .post__table-text {
+    display: none;
+  }
+
+  .post__laptop-text {
+    display: none;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+  }
+
+  .content__post {
+    font-family:  "TT Lakes R", serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 0 16px 0 16px;
+  }
+  .content__continuation {
+    display: flex;
+    margin-bottom: 5px;
+    font-family: "TT Lakes M2", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+  }
+
+  .content__image-arrow {
+    margin-right: 8px;
+  }
+}
+@media screen and (min-width: 767.98px) and (max-width: 1439.98px) {
+  .content__image1, .content__image3 {
+    display: none;
+  }
+  .post__laptop-text {
+    display: none;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    padding-top: 18px;
+    padding-bottom: 24px;
+  }
+  .content__post {
+    font-family:  "TT Lakes R", serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 0 16px 0 16px;
+    width:  45%;
+  }
+
+  .content__post p {
+    margin-top: 0;
+  }
+  .content__continuation {
+    display: flex;
+    margin: 10px 0 54px 0;
+    font-family: "TT Lakes M2", serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    align-self: flex-start;
+  }
+
+  .content__image-arrow {
+    margin-right: 8px;
+  }
+  .content__image2 {
+    margin-right: 25px;
+  }
+
+
+}
+@media screen and (min-width: 1439.98px) {
+  .content__image1, .content__image2 {
+    display: none;
+  }
+  .post__table-text {
+    display: none;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 16px 32px 0;
+    padding:  0 0 42px 0;
+  }
+
+  .content__post {
+    font-family:  "TT Lakes R", serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 0 16px 0 16px;
+    width:  45%;
+  }
+  .content__continuation {
+    display: flex;
+    margin: 10px 0 54px 0;
+    font-family: "TT Lakes M2", serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    align-self: flex-start;
+  }
+
+  .content__image-arrow {
+    margin-right: 8px;
+  }
+}
+img {
+  border-radius: 5px;
+}

@@ -1,17 +1,65 @@
-$bgColor: #24292e;
-$text: #fff;
+@import 'path/to/foot-page.scss';
+@import 'path/to/another-list.scss';
+@import 'path/to/list.scss';
+@import 'path/to/content.scss';
+@import 'path/to/navigation.scss';
+@import 'path/to/title.scss';
+@import 'path/to/menu.scss';
+@import 'path/to/foot-menu__part.scss';
+@import 'path/to/burger__wrapper.scss';
+@import './path/to/burger__menu.scss';
+@import './path/to/burger.scss';
+@import './path/to/full__page.scss';
+@import './path/to/chat-review.scss';
+@import './path/to/call-review.scss';
+
 
 @font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
+  font-family: 'TT Lakes R';
+  src: url('../fonts/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+  url('../fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTLakes-Regular.woff') format('woff'),
+  url('../fonts/TTLakes-Regular.ttf') format('truetype');
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes M2';
+  src: url('../fonts/TTLakesCondensed-DemiBold.eot');
+  src: local('TT Lakes Condensed DemiBold'), local('TTLakesCondensed-DemiBold'),
+  url('../fonts/TTLakesCondensed-DemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTLakesCondensed-DemiBold.woff') format('woff'),
+  url('../fonts/TTLakesCondensed-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes B1';
+  src: url('../fonts/TTLakes-ExtraBold.eot');
+  src: local('TT Lakes ExtraBold'), local('TTLakes-ExtraBold'),
+  url('../fonts/TTLakes-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTLakes-ExtraBold.woff') format('woff'),
+  url('../fonts/TTLakes-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes M1';
+  src: url('../fonts/TTLakesCondensed-Medium.eot');
+  src: local('TT Lakes Condensed Medium'), local('TTLakesCondensed-Medium'),
+  url('../fonts/TTLakesCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTLakesCondensed-Medium.woff') format('woff'),
+  url('../fonts/TTLakesCondensed-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 body {
-  padding: 1rem;
   margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
+  font-family: 'TT Lakes R', sans-serif;
+  background-color: #F8F8F8;
 }
