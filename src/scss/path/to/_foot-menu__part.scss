@@ -1,31 +1,30 @@
 .part__email {
-  font-family: 'TT Lakes M1';
+  font-family: 'TT Lakes M1', serif;
   font-size: 16px;
   margin-bottom: 12px;
 }
 
 .part__phone {
-  position: relative;
-  right: 10px;
-  font-family: 'TT Lakes B1';
+  text-decoration: none;
+  font-family: 'TT Lakes B1', serif;
   font-size: 24px;
   margin-top: 0;
-  margin-left: 8px;
-  margin-bottom: 40px;
+  margin-left: 0;
+
   border: none;
 }
 
-.foot-menu__part input {
-
+.part__language {
+  margin-top: 40px;
 }
-
 .part__language a {
   text-decoration: none;
-  font-family: 'TT Lakes M1';
+  font-family: 'TT Lakes M1', serif;
   font-size: 18px;
   line-height: 24px;
   padding-right: 7px;
   color: #1B1C21;
+
 }
 
 .part__language .active {
